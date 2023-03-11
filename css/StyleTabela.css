@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Roboto:wght@100&display=swap');
+body{
+    margin: 0;
+    font-family: 'Noto  sans', sans-serif;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.right-login{
+    width: 50vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-login > h1{
+    color: 201b2c;
+    font-weight: 800;
+    margin:0;
+}
+
+.card-login  > p{
+    color: #00ff88;
+}
+
+.cads{
+    display: inline-block;
+    color:black;
+    text-decoration: none;
+}
+
+
+table, tr,td{
+    color:#f0ffffde;
+    border: 1px solid  ;
+    background: #201b2c;
+}
+
+button{
+    color:#f0ffffde;
+    text-decoration: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background: #2ee48f;
+    cursor: pointer;
+    justify-content: center;
+}
+button > a{
+    color: black;
+    text-decoration: none
+}
+#b2 {
+    background: rgb(253, 46, 46);
+}
