@@ -16,6 +16,7 @@ $result = mysqli_query($conexao, $query);
 $row = mysqli_num_rows($result);
 
 
+
 if($row == 1) {
 	session_start();
 	$_SESSION['logado'] = 1;

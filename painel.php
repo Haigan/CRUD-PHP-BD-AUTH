@@ -32,6 +32,7 @@ $consulta = $conexao->query($sql);
 		}
 		</script>
 	</head>
+	
 	<body>	
 
 		<div class="main-login">

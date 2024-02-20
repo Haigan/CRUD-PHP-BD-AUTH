@@ -19,6 +19,7 @@ if(isset($_POST['senha']))
 if(!empty($senha)){
 	$consulta = $conexao->prepare("UPDATE usuario SET nome = ?, email = ?, senha = ? WHERE codigo = ?");
 	$consulta->bind_param("sssd", $nome, $email, $senha, $codigo);
+	
 }else{
 	$consulta = $conexao->prepare("UPDATE usuario SET nome = ?, email = ? WHERE codigo = ?");
 	$consulta->bind_param("ssd", $nome, $email, $codigo);	

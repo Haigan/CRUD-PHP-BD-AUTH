@@ -10,6 +10,7 @@
     body{
         background: #2f2841;
     }
+    
     h1{
         text-transform: uppercase;
         display: flex;

@@ -8,7 +8,7 @@ if(isset($_POST['codigo'])){
 	
 	$conexao->query($sql);
 	
-	echo "Registro excluído com sucesso.";	
+	echo "Registro excluído com sucesso!";	
 }
 
 ?>

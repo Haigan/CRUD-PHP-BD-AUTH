@@ -10,7 +10,7 @@
 <body>
     <div class="main-login">
         <div class="left-login">
-            <h1> Faça login<br> E acesse nosso painel</h1>
+            <h1> Faça login<br> acesse nosso painel</h1>
             <img src="/images/formulario.svg" class="left-login-image">
         </div>
 

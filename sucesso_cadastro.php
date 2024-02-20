@@ -20,7 +20,7 @@
     }
 </style>
 <body>
-    <h1>Cadastro efetuado com sucesso!</h1>
+    <h1>Cadastro efetuado com sucesso!!!</h1>
     <script>
 
         setTimeout(()=>{

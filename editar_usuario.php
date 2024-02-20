@@ -8,6 +8,7 @@ $sql = "SELECT codigo, nome, email FROM usuario
 $consulta = $conexao->query($sql);
 $linha = mysqli_fetch_array($consulta);
 
+
 ?>
 
 <!DOCTYPE html>

@@ -20,7 +20,7 @@
     }
 </style>
 <body>
-    <h1>edição concluida com sucesso!</h1>
+    <h1>edição concluída com sucesso!</h1>
     <script>
 
         setTimeout(()=>{
